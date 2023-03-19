@@ -1,0 +1,9 @@
+.box {
+    min-height: 8rem;
+    min-width: 18rem;
+    margin: 1rem;
+}
+
+.box:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}

@@ -1,0 +1,55 @@
+<div class="my-container">
+    <div class="row">
+        <div class="col-md-4 col-sm-12">
+            <div class="d-flex justify-content-center align-items-center align-content-center">
+                <!-- Image -->
+                <div class="" style="width:16rem">
+                    <img class="img-fluid border  rounded-circle" src="../../../assets/ashish_photo (2).jpg" alt="Ashish Yadav">
+                    <!-- <img class="img-fluid border  rounded-circle" src="../../../assets/ashish_photo.jpg" alt="Ashish Yadav"> -->
+                </div>
+                <br>
+
+            </div>
+            <!-- Contact Links -->
+            <div class="my-5 d-flex justify-content-evenly">
+                <a class="zoom" href="https://www.linkedin.com/in/ashish-yadav-b6a9241a9/" target="_blank">
+                    <i class="fa-brands fa-github fa-2x text-github"></i>
+                </a>
+                <a class="zoom" href="https://github.com/DeveloperAshish17" target="_blank">
+                    <i class="fa-brands fa-linkedin fa-2x text-linkedin"></i>
+                </a>
+                <a class="zoom" href="https://www.hackerrank.com" target="_blank">
+                    <i class="fa-brands fa-hackerrank fa-2x text-hackerrank"></i>
+                </a>
+                <a class="zoom" href="yadavashish0798@gmail.com" target="_blank">
+                    <i class="fa-solid fa-envelope fa-2x text-gmail"></i>
+                </a>
+            </div>
+        </div>
+        <!-- About Me -->
+        <div class="col-md-8 col-sm-12">
+            <h1 class="text-black">Ashish Yadav</h1>
+            <h4 class="text-secondry">
+                <small>- Full Stack Angular Developer</small>
+            </h4>
+            <p>
+                Master in 2021 with a Degree of <strong>Master’s Degree</strong>, specialized in <strong>Computer Science &
+                    Technology</strong>.
+            </p>
+            <p>
+                <b>Full Stack Web Developer</b> with a depth knowledge of Backend & Frontend Technologies. Good to have experience in developing web applications using ASP.NET, HTML5, JavaScript, and CSS3. Exprience of developing client side application
+                with Angular 12+ , Javascript, Typescript. Knowledge of SQL DB's like SQL Server.
+            </p>
+            <!-- Skills -->
+            <div class="row">
+                <div class="h5">Specialized In: </div>
+                <div class="col-md-3 col-sm-6 my-2 text-center" *ngFor="let item of skills">
+                    <div class="card box p-3">
+                        <div><img class="img-fluid item-zoom" src="{{item.icon}}" width="50rem" alt="{{item.name}}"></div>
+                        <div class="h6">{{item.name}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+}
+
+.box {
+    min-height: 8rem;
+    min-width: 18rem;
+    margin: 1rem;
+}
+
+.box:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.ng2-pdf-viewer-container[_ngcontent-hdc-c19] {
+    overflow-x: clip;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
